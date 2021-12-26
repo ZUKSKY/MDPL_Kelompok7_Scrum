@@ -254,6 +254,206 @@
         
       <br>
 
+       <!-- 3.1.3	Analisis Pengguna -->
+       <h5><b>3.1.3	Analisis Pengguna</b></h5>
+       <div class="text-justify">
+         <h6>Berikut analisa kebutuhan pengguna yaitu: <br></h6>
+         <ol>
+           <li>Admin<br>
+           a.	Admin dapat mengelola data user atau akun.<br>
+           b.	Admin dapat mengelola data supplier.<br>
+           c.	Admin dapat mengelola data master barang yang meliputi satuan barang, jenis barang, dan data barang.<br>
+           d.	Admin dapat mengelola data transaksi yang meliputi data barang masuk dan data barang keluar.<br>
+           e.	Admin dapat melihat data laporan barang masuk dan keluar serta dapat mencetak kedalam bentuk file PDF.<br>
+           </li><br>
+ 
+           <li>Pemilik / Manager<br>
+           Bagian Pemilik dapat melihat laporan data barang masuk dan keluar serta dapat mencetak kedalam bentuk file PDF.
+           </li><br>
+ 
+           <li>Petugas Gudang / Karyawan<br>
+           a.	Bagian Petugas Gudang dapat mengelola data supplier.<br>
+           b.	Bagian Petugas Gudang dapat mengelola data master barang yang meliputi satuan barang, jenis barang, dan data barang.<br>
+           c.	Bagian Petugas Gudang dapat mengelola data transaksi yang meliputi data barang masuk dan data barang keluar.
+           </li>
+           </ol>
+         </div>
+         
+         <br>
+ 
+         <!-- 3.1.4	Analisa Sistem -->
+         <h5><b>3.1.4	Analisa Sistem</b></h5>
+         <div class="text-justify">
+           <p style="text-indent: 0.35in;">Berdasarkan identifikasi syarat-syarat dan kebutuhan sebelumnya, untuk membuat aplikasi web yang diminta pihak PT Konveksi Jaya maka berikut ini poin-poin hasil analisis mengenai sistem yang akan dibuat:<br>
+             1.	Data-data Persediaan barang seperti data supplier, data barang, jenis, satuan, barang masuk dan keluar disajikan dalam bentuk tabel untuk setiap jenis pada menu serta dilengkapi dengan fitur CRUD, sehingga untuk tampilan antarmuka layar akan terlihat sangat simple dan efisien. <br>
+             2.	Informasi Pada menu persediaan barang meliputi supplier, master barang, transaksi, laporan.<br>
+             3.	Aplikasi web memiliki sistem keamanan yaitu hak akses level pada setiap user. 
+           </p>
+         </div>
+         
+         <br>
+ 
+         <!--Product Backlog-->
+         <h5><b>3.2	<i>Product Backlog</i></b></h5>
+         <div class="text-justify">
+           <p style="text-indent: 0.35in;">Pada tahap ini, ditentukan semua kebutuhan pengguna beserta skala prioritasnya. Prioritas menentukan fitur mana yang harus dikerjakan terlebih dahulu. Fitur-fitur yang akan dirancang pada sistem dituliskan pada tabel product backlog. Berikut ini merupakan daftar fitur yang akan dibuat dalam menentukan product backlog.</p>
+ 
+           <p class="text-center">Tabel  <i>Product Backlog</i></p>
+           
+           <div class="container">
+             <table class="table table-bordered">
+               <thead>
+                 <tr>
+                   <th scope="col">Fitur</th>
+                   <th scope="col">Prioritas</th>
+                   <th scope="col">Fungsi</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td>Login</td>
+                   <td>Tinggi</td>
+                   <td>Login merupakan halaman awal bagi pengguna untuk dapat masuk kedalam Sistem Informasi Persediaan Barang, pada saat login terdapat 3 level hak akses user yang setiap level akses  dan tampilan halaman berbeda.</td>
+                 </tr>
+                 <tr>   
+                   <td>Dashboard</td>
+                   <td>Tinggi</td>
+                   <td>Menampilkan beberapa menu untuk pengelolaan persediaan barang, jumlah data barang, total transaksi perbulan, transaksi barang, barang masuk serta keluar terakhir.</td>
+                 </tr>
+                 <tr>
+                   <td>Menu Master Barang<br>
+                     (Data barang, satuan, jenis, supplier, user)
+                   </td>
+                   <td>Sangat Tinggi</td>
+                   <td>Fitur ini berfungsi melakukan aktivitas untuk mengelola data dari menambah mengubah dan menghapus serta informasi, data yang dikelola yaitu data barang, satuan, jenis, supplier dan user.</td>
+                 </tr>
+                 <tr>
+                   <td>Menu Transaksi</td>
+                   <td>Sangat Tinggi</td>
+                   <td>Untuk mengelola data barang masuk dan keluar.</td>
+                 </tr>
+                 <tr>
+                   <td>Menu Laporan</td>
+                   <td>Sangat Tinggi</td>
+                   <td>Untuk melihat laporan data barang masuk dan keluar dengan mencari datanya atau dengan tanggal. Serta dapat mencetak data laporan barang masuk dan keluar ke dalam pdf.</td>
+                 </tr>
+               </tbody>
+             </table>
+           </div>
+         </div>
+ 
+         <br>
+ 
+         <!--Sprint Planning-->
+         <h5><b>3.3	<i>Sprint Planning</i></b></h5>
+         <div class="text-justify">
+           <p style="text-indent: 0.35in;">Perencanaan pengerjaan product backlog dituliskan didalam tabel sprint planning. Berikut merupakan daftar sprint planning.</p>
+ 
+           <p class="text-center">Tabel  <i>Sprint Planning</i></p>
+           
+           <div class="container">
+             <table class="table table-bordered">
+               <thead>
+                 <tr>
+                   <th scope="col">Sprint</th>
+                   <th scope="col">Product Backlog</th>
+                   <th scope="col">Estimasi Waktu Kerja (Hari)</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td>Sprint 1</td>
+                   <td>Login, Dashboard</td>
+                   <td>7</td>
+                 </tr>
+                 <tr>   
+                   <td>Sprint 2</td>
+                   <td>Menu Master Barang</td>
+                   <td>10</td>
+                 </tr>
+                 <tr>
+                   <td>Sprint 3</td>
+                   <td>Menu Transaksi</td>
+                   <td>5</td>
+                 </tr>
+                 <tr>
+                   <td>Sprint 4</td>
+                   <td>Menu Laporan</td>
+                   <td>5</td>
+                 </tr>
+               </tbody>
+             </table>
+           </div>
+           <p>Perancangan sprint planning kali ini dibagi menjadi empat tahapan sprint. Masing-masing tahapan sprint direncanakan untuk dikerjakan selama 5-10 hari.</p>
+         </div>
+ 
+         <br>
+ 
+         <!--Sprint Backlog-->
+         <h5><b>3.4	<i>Sprint Backlog</i></b></h5>
+         <div class="text-justify">
+           <p style="text-indent: 0.35in;">Untuk mengerjakan sprint planning, masing-masing sprint dibagi menjadi beberapa tahapan pengerjaan dan gambaran waktu untuk penyelesaikan tiap pekerjaan. Berikut merupakan daftar sprint backlog.</p>
+ 
+           <p class="text-center">Tabel  <i>Sprint Backlog</i></p>
+           
+           <div class="container">
+             <table class="table table-bordered">
+               <thead>
+                 <tr>
+                   <th scope="col"><i>Task</i></th>
+                   <th scope="col"><i>Task Status</i></th>
+                   <th scope="col">Estimasi Waktu Kerja (Jam)</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td colspan="3">Login</td>
+                 </tr>
+                 <tr>   
+                   <td>Desain Sistem</td>
+                   <td><i>Finised</i></td>
+                   <td>4</td>
+                 </tr>
+                 <tr>
+                   <td>Coding Fitur</td>
+                   <td><i>Not Started</i></td>
+                   <td>7</td>
+                 </tr>
+                 <tr>
+                   <td>Pengujian</td>
+                   <td><i>Not Started</i/td>
+                   <td>3</td>
+                 </tr>
+                 <tr>
+                   <td colspan="3">Dashboard</td>
+                 </tr>
+                 <tr>   
+                   <td>Desain Sistem</td>
+                   <td><i>Finised</i></td>
+                   <td>5</td>
+                 </tr>
+                 <tr>
+                   <td>Coding Fitur</td>
+                   <td><i>Not Started</i></td>
+                   <td>8</td>
+                 </tr>
+                 <tr>
+                   <td>Pengujian</td>
+                   <td><i>Not Started</i/td>
+                   <td>3</td>
+                 </tr>
+                 <tr>
+                   <td colspan="2">Jumlah</td>
+                   <td>30</td>
+                 </tr>
+               </tbody>
+             </table>
+           </div>
+           <p>Daftar diatas merupakan tahapan pengerjaan yang dirancang untuk sprint 1. Sprint 1 berisikan fitur Login dan Dashboard.</p>
+         </div>
+ 
+         <br>
+
 
 
     </div>
